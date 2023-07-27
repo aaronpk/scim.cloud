@@ -1,6 +1,6 @@
-# simplecloud.info
-Code for [simplecloud.info](http://simplecloud.info).
+# scim.cloud
+Source code for [scim.cloud](https://scim.cloud).
 
 Know of an implementation that should be listed?
 
-Submit a pull request updating [scim_v1_implementations.json](https://github.com/erdtman/simplecloud.info/blob/master/src/main/webapp/json/scim_v1_implementations.json) or [scim_v2_implementations.json](https://github.com/erdtman/simplecloud.info/blob/master/src/main/webapp/json/scim_v2_implementations.json)
+Submit a pull request updating [scim_v1_implementations.json](https://github.com/aaronpk/scim.cloud/blob/main/public/json/scim_v1_implementations.json) or [scim_v2_implementations.json](https://github.com/aaronpk/scim.cloud/blob/main/public/json/scim_v2_implementations.json)
