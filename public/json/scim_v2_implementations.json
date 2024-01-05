@@ -192,6 +192,14 @@ const scim_v2_implementations = {
             "developer": "JumpCloud",
             "link": "https://jumpcloud.com"
         },
+	{
+            "project_name": "Lumos",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Lumos App, Inc.",
+            "link": "https://lumos.zendesk.com/hc/en-us/articles/21430090124049"
+        },
         {
             "project_name": "Microsoft Identity Manager (MIM) - SCIMv2 Management Agent",
             "client": "Yes",
