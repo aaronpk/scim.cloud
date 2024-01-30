@@ -583,6 +583,14 @@ const scim_v2_implementations = {
             "open_source": "No",
             "developer": "Starmind",
             "link": "https://www.starmind.ai/"
-        }
+        },
+	{
+            "project_name": "Tines",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Tines",
+            "link": "https://www.tines.com/docs/admin/user-administration/scim"
+        },
     ]
 };
