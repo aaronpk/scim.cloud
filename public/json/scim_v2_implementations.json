@@ -591,6 +591,6 @@ const scim_v2_implementations = {
             "open_source": "No",
             "developer": "Tines",
             "link": "https://www.tines.com/docs/admin/user-administration/scim"
-        },
+        }
     ]
 };
