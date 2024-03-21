@@ -583,6 +583,14 @@ const scim_v2_implementations = {
             "open_source": "No",
             "developer": "Starmind",
             "link": "https://www.starmind.ai/"
-        }
+        },
+	{
+            "project_name": "meetergo",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "meetergo GmbH",
+            "link": "https://meetergo.com"
+	}
     ]
 };
