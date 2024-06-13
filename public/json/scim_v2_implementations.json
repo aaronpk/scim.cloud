@@ -8,6 +8,14 @@ const scim_v2_implementations = {
             "developer": "Buildkite Pty Ltd",
             "link": "https://buildkite.com/"
         },
+    {
+            "project_name": "Stytch",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Stytch Inc.",
+            "link": "https://stytch.com/docs/b2b/guides/scim/overview?utm_source=scim.cloud"
+        },
 	{
             "project_name": "Vector Flow",
             "client": "No",
@@ -416,6 +424,14 @@ const scim_v2_implementations = {
             "developer": "Ping Identity (acquirer of UnboundID)",
             "link": "https://github.com/pingidentity/scim2"
         },
+	{
+            "project_name": "WorkOS",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "WorkOS, Inc.",
+            "link": "https://workos.com/docs/directory-sync?utm_source=scim_cloud"
+        },
         {
             "project_name": "WSO2 Charon",
             "client": "Yes",
@@ -584,13 +600,21 @@ const scim_v2_implementations = {
             "developer": "Starmind",
             "link": "https://www.starmind.ai/"
         },
-	{
+      	{
             "project_name": "Tines",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
             "developer": "Tines",
             "link": "https://www.tines.com/docs/admin/user-administration/scim"
-        }
+        },
+        {
+            "project_name": "meetergo",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "meetergo GmbH",
+            "link": "https://meetergo.com"
+        	}
     ]
 };
