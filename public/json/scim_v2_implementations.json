@@ -8,6 +8,14 @@ const scim_v2_implementations = {
             "developer": "Buildkite Pty Ltd",
             "link": "https://buildkite.com/"
         },
+    {
+            "project_name": "Stytch",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Stytch Inc.",
+            "link": "https://stytch.com/docs/b2b/guides/scim/overview?utm_source=scim.cloud"
+        },
 	{
             "project_name": "Vector Flow",
             "client": "No",
