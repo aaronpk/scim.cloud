@@ -337,6 +337,14 @@ const scim_v2_implementations = {
             "link": "https://www.pingidentity.com/en/products/pingdatagovernance-server.html"
         },
         {
+            "project_name": "Puzzel",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Puzzel",
+            "link": "https://help.puzzel.com/product-documents/user-guide/puzzel-contact-centre/manage-users-with-scim"
+        },
+        {
             "project_name": "RadiantOne FID",
             "client": "Yes",
             "server": "Yes",
