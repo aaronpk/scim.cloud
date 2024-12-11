@@ -1,5 +1,13 @@
 const scim_v2_implementations = {
     "implementations": [
+	    {
+            "project_name": "Permit.io",
+            "client": "Yes",
+            "server": "No",
+            "open_source": "No",
+            "developer": "Permit.io Technologies LTD",
+            "link": "https://docs.permit.io/integrations/scim/scim%20overview/"
+        },
     {
             "project_name": "Buildkite",
             "client": "No",
