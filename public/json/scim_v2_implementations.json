@@ -401,6 +401,14 @@ const scim_v2_implementations = {
             "link": "https://github.com/Will-Low/scimterface"
         },
         {
+            "project_name": "scim2-models",
+            "client": "Yes",
+            "server": "Yes",
+            "open_source": "Yes, Apache License",
+            "developer": "Yaal Coop",
+            "link": "https://github.com/yaal-coop/scim2-models"
+        },
+        {
             "project_name": "SimpleIdentityServer",
             "client": "Yes",
             "server": "Yes",
