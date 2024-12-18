@@ -632,6 +632,14 @@ const scim_v2_implementations = {
             "developer": "Tines",
             "link": "https://www.tines.com/docs/admin/user-administration/scim"
         },
+	{
+            "project_name": "ServiceNow",
+            "client": "Yes",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "ServiceNow",
+            "link": "https://www.servicenow.com/docs/bundle/vancouver-api-reference/page/integrate/inbound-rest/concept/scim-api.html"
+        },
         {
             "project_name": "meetergo",
             "client": "No",
