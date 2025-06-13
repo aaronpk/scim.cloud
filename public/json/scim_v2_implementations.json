@@ -32,6 +32,14 @@ const scim_v2_implementations = {
             "developer": "Vector Flow",
             "link": "https://vectorflow.com/"
         },
+	 {
+            "project_name": "Scalekit",
+            "client": "Yes",
+            "server": "No",
+            "open_source": "No",
+            "developer": "Scalekit Inc",
+            "link": "https://www.scalekit.com/scim-provisioning"
+        },   
 	{
             "project_name": "Anaplan SCIM API",
             "client": "No",
