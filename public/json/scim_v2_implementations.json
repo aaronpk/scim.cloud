@@ -34,8 +34,8 @@ const scim_v2_implementations = {
         },
 	 {
             "project_name": "Scalekit",
-            "client": "Yes",
-            "server": "No",
+            "client": "No",
+            "server": "Yes",
             "open_source": "No",
             "developer": "Scalekit Inc",
             "link": "https://www.scalekit.com/scim-provisioning"
