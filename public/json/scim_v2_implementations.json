@@ -1,5 +1,13 @@
 const scim_v2_implementations = {
     "implementations": [
+	{
+            "project_name": "Descope",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Descope Inc.",
+            "link": "https://docs.descope.com/scim"
+        },	    
 	    {
             "project_name": "Zitadel",
             "client": "No",
