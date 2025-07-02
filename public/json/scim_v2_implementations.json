@@ -647,6 +647,14 @@ const scim_v2_implementations = {
             "open_source": "No",
             "developer": "meetergo GmbH",
             "link": "https://meetergo.com"
-        	}
+        },
+        {
+            "project_name": "AcademyMaker",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "X-CELL AG",
+            "link": "https://www.x-cell.com/english/software-and-services/academymaker-integration-and-interfaces"
+        }
     ]
 };
