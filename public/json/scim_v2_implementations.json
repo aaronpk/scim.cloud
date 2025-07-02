@@ -1,6 +1,14 @@
 const scim_v2_implementations = {
     "implementations": [
 	    {
+            "project_name": "Zitadel",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "Yes",
+            "developer": "Zitadel Inc.",
+            "link": "https://zitadel.com/docs/apis/scim2"
+        },
+	    {
             "project_name": "Permit.io",
             "client": "Yes",
             "server": "No",
