@@ -646,7 +646,7 @@ const scim_v2_implementations = {
             "server": "Yes",
             "open_source": "No",
             "developer": "X-CELL AG",
-            "link": "https://www.x-cell.com"
+            "link": "https://www.x-cell.com/english/software-and-services/academymaker-integration-and-interfaces"
         }
     ]
 };
