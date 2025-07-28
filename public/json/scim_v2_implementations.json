@@ -1,5 +1,13 @@
 const scim_v2_implementations = {
     "implementations": [
+        {
+            "project_name": "SCIM Gateway",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "Yes, MIT License",
+            "developer": "Jarle Elshaug",
+            "link": "https://github.com/jelhub/scimgateway"
+        },
 	{
             "project_name": "Descope",
             "client": "No",
