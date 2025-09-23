@@ -297,12 +297,12 @@ const scim_v1_implementations = {
       "link": "https://github.com/wso2/charon"
     },
     {
-      "project_name": "ideiio",
+      "project_name": "Delinea",
       "client": "Yes",
       "server": "Yes",
       "open_source": "No",
-      "developer": "ideiio",
-      "link": "https://ideiio.com/"
+      "developer": "Delinea",
+      "link": "https://delinea.com/"
     }
   ]
 };

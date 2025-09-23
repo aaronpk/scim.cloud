@@ -593,12 +593,12 @@ const scim_v2_implementations = {
             "link": "https://www.gong.io",
         },
         {
-          "project_name": "ideiio",
+          "project_name": "Delinea",
           "client": "Yes",
           "server": "Yes",
           "open_source": "No",
-          "developer": "ideiio",
-          "link": "https://ideiio.com/"
+          "developer": "Delinea",
+          "link": "https://delinea.com/"
         },
         {
           "project_name": "AlexisHR Provisioning",
