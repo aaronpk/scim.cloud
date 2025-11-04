@@ -679,6 +679,14 @@ const scim_v2_implementations = {
             "open_source": "No",
             "developer": "X-CELL AG",
             "link": "https://www.x-cell.com/english/software-and-services/academymaker-integration-and-interfaces"
-        }
+        },
+		{
+            "project_name": "SCIM For ASP.NET",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Rock Solid Knowledge",
+            "link": "https://www.identityserver.com/products/scim-for-aspnet"
+        }.
     ]
 };
