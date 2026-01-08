@@ -687,6 +687,6 @@ const scim_v2_implementations = {
             "open_source": "No",
             "developer": "Rock Solid Knowledge",
             "link": "https://www.identityserver.com/products/scim-for-aspnet"
-        }.
+        }
     ]
 };
