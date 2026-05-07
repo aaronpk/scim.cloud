@@ -1,6 +1,14 @@
 const scim_v2_implementations = {
     "implementations": [
         {
+            "project_name": "Cloud Identity Engine SCIM",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Palo Alto Networks",
+            "link": "https://docs.paloaltonetworks.com/identity/cloud-identity-engine/identify-users-and-devices-with-cie/choose-directory-type/configure-a-cloud-based-directory/configure-scim-connector-for-the-cloud-identity-engine#id32a816f0-0f84-4d6a-8300-ff5e9e3646a9"
+        },
+        {
             "project_name": "SCIM Gateway",
             "client": "No",
             "server": "Yes",
