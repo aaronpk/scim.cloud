@@ -1,74 +1,83 @@
-const scim_v2_implementations = {
+{
     "implementations": [
         {
             "project_name": "SCIM Gateway",
             "client": "No",
             "server": "Yes",
-            "open_source": "Yes, MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "Jarle Elshaug",
             "link": "https://github.com/jelhub/scimgateway"
         },
-	{
+        {
             "project_name": "Descope",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Descope Inc.",
             "link": "https://docs.descope.com/scim"
-        },	    
-	    {
+        },
+        {
             "project_name": "Zitadel",
             "client": "No",
             "server": "Yes",
             "open_source": "Yes",
+            "license": "",
             "developer": "Zitadel Inc.",
             "link": "https://zitadel.com/docs/apis/scim2"
         },
-	    {
+        {
             "project_name": "Permit.io",
             "client": "Yes",
             "server": "No",
             "open_source": "No",
+            "license": "",
             "developer": "Permit.io Technologies LTD",
             "link": "https://docs.permit.io/integrations/scim/scim%20overview/"
         },
-    {
+        {
             "project_name": "Buildkite",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Buildkite Pty Ltd",
             "link": "https://buildkite.com/"
         },
-    {
+        {
             "project_name": "Stytch",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Stytch Inc.",
             "link": "https://stytch.com/docs/b2b/guides/scim/overview?utm_source=scim.cloud"
         },
-	{
+        {
             "project_name": "Vector Flow",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Vector Flow",
             "link": "https://vectorflow.com/"
         },
-	 {
+        {
             "project_name": "Scalekit",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Scalekit Inc",
             "link": "https://www.scalekit.com/scim-provisioning"
-        },   
-	{
+        },
+        {
             "project_name": "Anaplan SCIM API",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Anaplan, Inc.",
             "link": "https://scimapi.docs.apiary.io"
         },
@@ -77,6 +86,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Amazon Web Services",
             "link": "https://docs.aws.amazon.com/singlesignon/latest/developerguide/what-is-scim.html"
         },
@@ -85,14 +95,16 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Axiad",
             "link": "https://www.axiad.com/axiad-cloud/"
         },
-	{
+        {
             "project_name": "ConnId",
             "client": "Yes",
             "server": "No",
-            "open_source": "Yes, Apache2.0",
+            "open_source": "Yes",
+            "license": "Apache-2.0",
             "developer": "Tirasa",
             "link": "https://github.com/Tirasa/ConnIdSCIMBundle"
         },
@@ -100,7 +112,8 @@ const scim_v2_implementations = {
             "project_name": "i2scim",
             "client": "Yes",
             "server": "Yes",
-            "open_source": "Yes, Apache 2.0 License",
+            "open_source": "Yes",
+            "license": "Apache-2.0",
             "developer": "Independent Identity Inc",
             "link": "https://i2scim.io"
         },
@@ -109,6 +122,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "No",
             "open_source": "No",
+            "license": "",
             "developer": "Adapta",
             "link": "https://www.adapta.nl/"
         },
@@ -117,22 +131,25 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Microsoft",
-            "link": "https://azure.microsoft.com/en-us/documentation/articles/active-directory-scim-provisioning/",
+            "link": "https://azure.microsoft.com/en-us/documentation/articles/active-directory-scim-provisioning/"
         },
         {
             "project_name": "AuthX",
             "client": "Yes",
             "server": "No",
-            "open_source": "Yes, MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "The Control Group",
-            "link": "https://github.com/the-control-group",
+            "link": "https://github.com/the-control-group"
         },
         {
             "project_name": "Centrify Privileged Access Security",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Centrify Corporation",
             "link": "https://developer.centrify.com/"
         },
@@ -141,6 +158,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Idaptive",
             "link": "https://www.idaptive.com/"
         },
@@ -149,6 +167,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Curity",
             "link": "https://curity.io"
         },
@@ -156,7 +175,8 @@ const scim_v2_implementations = {
             "project_name": "CzechIdM SCIM module",
             "client": "No",
             "server": "Yes",
-            "open_source": "Yes, MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "BCV solutions",
             "link": "https://czechidm.com"
         },
@@ -164,7 +184,8 @@ const scim_v2_implementations = {
             "project_name": "django_scim",
             "client": "No",
             "server": "Yes",
-            "open_source": "Yes, MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "Atlassian",
             "link": "https://bitbucket.org/atlassian/django_scim"
         },
@@ -172,7 +193,8 @@ const scim_v2_implementations = {
             "project_name": "django-scim2",
             "client": "No",
             "server": "Yes",
-            "open_source": "Yes, MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "Paul Logston @ 15Five",
             "link": "https://github.com/15five/django-scim2"
         },
@@ -180,7 +202,8 @@ const scim_v2_implementations = {
             "project_name": "eSCIMo",
             "client": "Yes",
             "server": "Yes",
-            "open_source": "Yes, ASL 2.0",
+            "open_source": "Yes",
+            "license": "Apache-2.0",
             "developer": "Apache Software Foundation",
             "link": "https://svn.apache.org/viewvc/directory/escimo/trunk/"
         },
@@ -189,6 +212,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Fed Blokes",
             "link": "https://help.federated.directory/developer/users-api"
         },
@@ -197,6 +221,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "No",
             "open_source": "No",
+            "license": "",
             "developer": "Beta Systems IAM Software",
             "link": "https://www.betasystems-iam.com"
         },
@@ -205,6 +230,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "GitHub, Inc",
             "link": "https://help.github.com/articles/about-scim/"
         },
@@ -212,15 +238,17 @@ const scim_v2_implementations = {
             "project_name": "Gluu",
             "client": "Yes",
             "server": "Yes",
-            "open_source": "Yes, MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "Gluu.org",
-            "link": "https://github.com/GluuFederation",
+            "link": "https://github.com/GluuFederation"
         },
         {
             "project_name": "GoSCIM",
             "client": "No",
-            "server": "Yes (openended building blocks + an example server implementation)",
-            "open_source": "Yes, MIT License",
+            "server": "Yes",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "Weinan Qiu",
             "link": "https://github.com/davidiamyou/go-scim"
         },
@@ -228,7 +256,8 @@ const scim_v2_implementations = {
             "project_name": "hscim",
             "client": "No",
             "server": "Yes",
-            "open_source": "Yes, AGPL License",
+            "open_source": "Yes",
+            "license": "AGPL-3.0",
             "developer": "Wire Swiss GmbH",
             "link": "https://github.com/wireapp/hscim"
         },
@@ -237,22 +266,25 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "UNIFY Solutions",
-            "link": "https://unifysolutions.net/",
+            "link": "https://unifysolutions.net/"
         },
         {
             "project_name": "JumpCloud",
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "JumpCloud",
             "link": "https://jumpcloud.com"
         },
-	{
+        {
             "project_name": "Lumos",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Lumos App, Inc.",
             "link": "https://lumos.zendesk.com/hc/en-us/articles/21430090124049"
         },
@@ -261,6 +293,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "No",
             "open_source": "No",
+            "license": "",
             "developer": "Traxion",
             "link": "https://www.traxion.com/en/products/iam-integration/scim-connector/"
         },
@@ -269,6 +302,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Monokee",
             "link": "https://www.monokee.com/docs/scim/"
         },
@@ -277,6 +311,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Traxion",
             "link": "https://www.traxion.com/en/products/iam-integration/scim-gateway/"
         },
@@ -285,6 +320,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "No",
             "open_source": "No",
+            "license": "",
             "developer": "Okta",
             "link": "https://developer.okta.com/docs/reference/scim/"
         },
@@ -293,6 +329,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "No",
             "open_source": "No",
+            "license": "",
             "developer": "Omada",
             "link": "https://www.omada.net/"
         },
@@ -301,6 +338,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "No",
             "open_source": "No",
+            "license": "",
             "developer": "One Identity",
             "link": "https://www.oneidentity.com/products/identity-manager/"
         },
@@ -309,6 +347,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "No",
             "open_source": "No",
+            "license": "",
             "developer": "OneLogin",
             "link": "https://developers.onelogin.com/scim"
         },
@@ -317,6 +356,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Optimal IdM",
             "link": "https://optimalidm.com/products/hosted/optimalcloud/"
         },
@@ -325,6 +365,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Oracle",
             "link": "https://docs.oracle.com/en/cloud/paas/identity-cloud/rest-api/index.html"
         },
@@ -333,6 +374,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Oracle",
             "link": "https://docs.oracle.com/cd/E52734_01/oim/OMDEV/scim.htm#OMDEV5526"
         },
@@ -341,6 +383,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Outreach, Inc.",
             "link": "https://support.outreach.io/hc/en-us/articles/4401998141339-Outreach-SCIM-Protocol-"
         },
@@ -348,7 +391,8 @@ const scim_v2_implementations = {
             "project_name": "Owin.Scim",
             "client": "No",
             "server": "Yes",
-            "open_source": "Yes, MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "PowerDMS",
             "link": "https://github.com/PowerDMS/Owin.Scim"
         },
@@ -357,6 +401,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Peakon",
             "link": "https://help.peakon.com/administering-your-account/technical-information-and-language-support/scim-api-integration-guide"
         },
@@ -365,6 +410,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "PhenixID",
             "link": "https://www.phenixid.se/product/identity-provisioning/#overview"
         },
@@ -373,6 +419,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Ping Identity",
             "link": "https://www.pingidentity.com/en/products/pingdatagovernance-server.html"
         },
@@ -381,6 +428,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Puzzel",
             "link": "https://help.puzzel.com/product-documents/user-guide/puzzel-contact-centre/manage-users-with-scim"
         },
@@ -389,6 +437,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Radiant Logic",
             "link": "https://www.radiantlogic.com"
         },
@@ -397,6 +446,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "SailPoint",
             "link": "https://www.sailpoint.com/"
         },
@@ -405,6 +455,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "No",
             "open_source": "No",
+            "license": "",
             "developer": "SailPoint",
             "link": "https://www.sailpoint.com/"
         },
@@ -413,6 +464,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Salesforce",
             "link": "https://releasenotes.docs.salesforce.com/en-us/winter19/release-notes/rn_identity_scim_2_0.htm"
         },
@@ -420,7 +472,8 @@ const scim_v2_implementations = {
             "project_name": "scim",
             "client": "No",
             "server": "Yes",
-            "open_source": "Yes, MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "Elimity",
             "link": "https://github.com/elimity-com/scim"
         },
@@ -428,7 +481,8 @@ const scim_v2_implementations = {
             "project_name": "scimterface",
             "client": "No",
             "server": "Yes",
-            "open_source": "Yes, MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "Will-Low",
             "link": "https://github.com/Will-Low/scimterface"
         },
@@ -436,7 +490,8 @@ const scim_v2_implementations = {
             "project_name": "scim2-models",
             "client": "Yes",
             "server": "Yes",
-            "open_source": "Yes, Apache License",
+            "open_source": "Yes",
+            "license": "Apache-2.0",
             "developer": "Yaal Coop",
             "link": "https://github.com/yaal-coop/scim2-models"
         },
@@ -445,6 +500,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "Yes",
             "open_source": "Yes",
+            "license": "",
             "developer": "Habart Thierry",
             "link": "https://github.com/thabart/SimpleIdentityServer"
         },
@@ -453,6 +509,7 @@ const scim_v2_implementations = {
             "client": "Yes",
             "server": "Yes",
             "open_source": "Yes",
+            "license": "",
             "developer": "www.soffid.com",
             "link": "http://confluence.soffid.org/display/SOF/SCIM"
         },
@@ -460,7 +517,8 @@ const scim_v2_implementations = {
             "project_name": "Syncope",
             "client": "Yes",
             "server": "Yes",
-            "open_source": "Yes, ASL 2.0",
+            "open_source": "Yes",
+            "license": "Apache-2.0",
             "developer": "Apache Software Foundation",
             "link": "https://syncope.apache.org"
         },
@@ -469,6 +527,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Trello",
             "link": "https://developers.trello.com/advanced-reference/scim"
         },
@@ -476,15 +535,17 @@ const scim_v2_implementations = {
             "project_name": "UnboundID SCIM 2 SDK for Java",
             "client": "Yes",
             "server": "Yes",
-            "open_source": "Yes. GPL, LGPL, or UnboundID Free License.",
+            "open_source": "Yes",
+            "license": "GPL, LGPL, or UnboundID Free",
             "developer": "Ping Identity (acquirer of UnboundID)",
             "link": "https://github.com/pingidentity/scim2"
         },
-	{
+        {
             "project_name": "WorkOS",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "WorkOS, Inc.",
             "link": "https://workos.com/docs/directory-sync?utm_source=scim_cloud"
         },
@@ -492,7 +553,8 @@ const scim_v2_implementations = {
             "project_name": "WSO2 Charon",
             "client": "Yes",
             "server": "Yes",
-            "open_source": "Apache 2.0 License",
+            "open_source": "Yes",
+            "license": "Apache-2.0",
             "developer": "WSO2 Inc",
             "link": "https://github.com/wso2/charon"
         },
@@ -501,6 +563,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Reward Gateway",
             "link": "https://success.rewardgateway.com/provisioning/scim-api"
         },
@@ -509,6 +572,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "CircleHD Inc.",
             "link": "https://help.circlehd.com/developers-sdk/scim"
         },
@@ -516,159 +580,179 @@ const scim_v2_implementations = {
             "project_name": "personify scim server",
             "client": "No",
             "server": "Yes",
-            "open_source": "Yes MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "personify.be",
-            "link": "https://bitbucket.org/wouter29/personify-scim-server/",
+            "link": "https://bitbucket.org/wouter29/personify-scim-server/"
         },
         {
             "project_name": "Aquera SCIM Gateway",
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Aquera",
-            "link": "https://aquera.com",
+            "link": "https://aquera.com"
         },
         {
             "project_name": "SCIM-SDK",
             "client": "Yes",
             "server": "Yes",
-            "open_source": "Yes, BSD-3-Clause",
+            "open_source": "Yes",
+            "license": "BSD-3-Clause",
             "developer": "Pascal Knüppel",
-            "link": "https://github.com/Captain-P-Goldfish/SCIM-SDK",
+            "link": "https://github.com/Captain-P-Goldfish/SCIM-SDK"
         },
         {
             "project_name": "idaas.nl",
             "client": "Yes",
             "server": "Yes",
-            "open_source": "Yes, MIT License",
+            "open_source": "Yes",
+            "license": "MIT",
             "developer": "Arie Timmerman",
-            "link": "https://www.idaas.nl/guide/scim.html",
+            "link": "https://www.idaas.nl/guide/scim.html"
         },
         {
             "project_name": "scim-patch",
             "client": "No",
             "server": "Yes",
-            "open_source": "Yes, Unlicense",
+            "open_source": "Yes",
+            "license": "Unlicense",
             "developer": "Thomas Poignant",
-            "link": "https://github.com/thomaspoignant/scim-patch",
+            "link": "https://github.com/thomaspoignant/scim-patch"
         },
         {
             "project_name": "Eletive",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Eletive",
-            "link": "https://eletive.com/",
+            "link": "https://eletive.com/"
         },
         {
             "project_name": "CrossID",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "CrossID",
-            "link": "https://crossid.io/",
+            "link": "https://crossid.io/"
         },
         {
             "project_name": "Symantec Directory",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Broadcom",
-            "link": "https://www.broadcom.com/products/cyber-security/identity/directory",
+            "link": "https://www.broadcom.com/products/cyber-security/identity/directory"
         },
         {
             "project_name": "NetIQ Identity Manager",
             "client": "Yes",
             "server": "No",
             "open_source": "No",
+            "license": "",
             "developer": "Micro Focus",
-            "link": "https://www.netiq.com/documentation/identity-manager-48-drivers/scim_driver/data/driver-for-scim.html",
+            "link": "https://www.netiq.com/documentation/identity-manager-48-drivers/scim_driver/data/driver-for-scim.html"
         },
         {
             "project_name": "Blink",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Blink",
-            "link": "https://developer.joinblink.com/reference#user",
+            "link": "https://developer.joinblink.com/reference#user"
         },
         {
             "project_name": "Gong",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Gong",
-            "link": "https://www.gong.io",
+            "link": "https://www.gong.io"
         },
         {
-          "project_name": "Delinea",
-          "client": "Yes",
-          "server": "Yes",
-          "open_source": "No",
-          "developer": "Delinea",
-          "link": "https://delinea.com/"
+            "project_name": "Delinea",
+            "client": "Yes",
+            "server": "Yes",
+            "open_source": "No",
+            "license": "",
+            "developer": "Delinea",
+            "link": "https://delinea.com/"
         },
         {
-          "project_name": "AlexisHR Provisioning",
-          "client": "Yes",
-          "server": "Yes",
-          "open_source": "No",
-          "developer": "AlexisHR AB",
-          "link": "https://docs.alexishr.com"
+            "project_name": "AlexisHR Provisioning",
+            "client": "Yes",
+            "server": "Yes",
+            "open_source": "No",
+            "license": "",
+            "developer": "AlexisHR AB",
+            "link": "https://docs.alexishr.com"
         },
         {
             "project_name": "FusionAuth SCIM",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "FusionAuth",
             "link": "https://fusionauth.io/docs/v1/tech/core-concepts/scim"
         },
         {
-          "project_name": "Calendly",
-          "client": "No",
-          "server": "Yes",
-          "open_source": "No",
-          "developer": "Calendly",
-          "link": "https://help.calendly.com/hc/en-us/articles/4403422473751-How-to-set-up-SCIM-with-your-identity-provider"
+            "project_name": "Calendly",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "license": "",
+            "developer": "Calendly",
+            "link": "https://help.calendly.com/hc/en-us/articles/4403422473751-How-to-set-up-SCIM-with-your-identity-provider"
         },
-	{
-          "project_name": "Saviynt",
-          "client": "Yes",
-          "server": "No",
-          "open_source": "No",
-          "developer": "Saviynt",
-          "link": "https://saviynt.com/integrations"
+        {
+            "project_name": "Saviynt",
+            "client": "Yes",
+            "server": "No",
+            "open_source": "No",
+            "license": "",
+            "developer": "Saviynt",
+            "link": "https://saviynt.com/integrations"
         },
-	{
-          "project_name": "Slack SCIM",
-          "client": "No",
-          "server": "Yes",
-          "open_source": "No",
-          "developer": "Slack Technologies",
-          "link": "https://api.slack.com/admins/scim2"
+        {
+            "project_name": "Slack SCIM",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "license": "",
+            "developer": "Slack Technologies",
+            "link": "https://api.slack.com/admins/scim2"
         },
         {
             "project_name": "Starmind",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Starmind",
             "link": "https://www.starmind.ai/"
         },
-      	{
+        {
             "project_name": "Tines",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Tines",
             "link": "https://www.tines.com/docs/admin/user-administration/scim"
         },
-	{
+        {
             "project_name": "ServiceNow",
             "client": "Yes",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "ServiceNow",
             "link": "https://www.servicenow.com/docs/bundle/vancouver-api-reference/page/integrate/inbound-rest/concept/scim-api.html"
         },
@@ -677,6 +761,7 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "meetergo GmbH",
             "link": "https://meetergo.com"
         },
@@ -685,16 +770,18 @@ const scim_v2_implementations = {
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "X-CELL AG",
             "link": "https://www.x-cell.com/english/software-and-services/academymaker-integration-and-interfaces"
         },
-		{
+        {
             "project_name": "SCIM For ASP.NET",
             "client": "No",
             "server": "Yes",
             "open_source": "No",
+            "license": "",
             "developer": "Rock Solid Knowledge",
             "link": "https://www.identityserver.com/products/scim-for-aspnet"
         }
     ]
-};
+}

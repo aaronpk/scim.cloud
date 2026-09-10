@@ -1,0 +1,16 @@
+{
+    "name": "aaronpk/scim.cloud",
+    "description": "The scim.cloud website: an overview of SCIM, the specifications, and known implementations.",
+    "license": "Apache-2.0",
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "start": "php -S 127.0.0.1:8080 -t public router.php"
+    },
+    "scripts-descriptions": {
+        "test": "Run the test suite",
+        "start": "Serve the site locally at http://127.0.0.1:8080"
+    }
+}
