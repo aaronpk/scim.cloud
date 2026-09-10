@@ -22,7 +22,15 @@
   <a href="/protocol/examples/" class="sidebar-link<?= sidebar_active('/protocol/examples/') ?>">Examples</a>
 
   <span class="sidebar-divider">Reference</span>
-  <a href="/specs/" class="sidebar-link<?= sidebar_active('/specs/') ?>">Specifications</a>
+  <details<?= section_open(['/specs']) ?>>
+    <summary class="sidebar-summary">Specifications</summary>
+    <ul class="sidebar-sub">
+      <li><a href="/specs/" class="sidebar-sublink<?= sidebar_active('/specs/') ?>">Overview</a></li>
+      <li><a href="/specs/cursor-pagination/" class="sidebar-sublink<?= sidebar_active('/specs/cursor-pagination/') ?>">Cursor Pagination</a></li>
+      <li><a href="/specs/device-schema/" class="sidebar-sublink<?= sidebar_active('/specs/device-schema/') ?>">Device Schema</a></li>
+      <li><a href="/specs/events/" class="sidebar-sublink<?= sidebar_active('/specs/events/') ?>">Events (SETs)</a></li>
+    </ul>
+  </details>
   <details<?= section_open(['/implementations']) ?>>
     <summary class="sidebar-summary">Implementations</summary>
     <ul class="sidebar-sub">

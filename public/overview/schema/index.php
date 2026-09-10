@@ -59,6 +59,13 @@ require(__DIR__.'/../../../includes/_header.php');
     </dd>
   </dl>
 
+  <p>
+    Those are the resource types defined by the core schema.
+    <a href="/specs/device-schema/">RFC 9944</a> adds two more &mdash; <code>Device</code> and
+    <code>EndpointApp</code> &mdash; extending SCIM from provisioning people to provisioning
+    devices.
+  </p>
+
   <h3>Extensions</h3>
 
   <p>

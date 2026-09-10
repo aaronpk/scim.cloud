@@ -16,7 +16,8 @@ require(__DIR__.'/../../includes/_header.php');
   <h2>Specifications</h2>
 
   <p class="lede">
-    SCIM 2.0 was published by the IETF in September 2015 as three RFCs.
+    SCIM 2.0 was published by the IETF in September 2015 as three RFCs, and has since been
+    extended by three more.
   </p>
 
   <h3>SCIM 2.0</h3>
@@ -62,7 +63,54 @@ require(__DIR__.'/../../includes/_header.php');
     </li>
   </ul>
 
-  <h3>Related documents and extensions</h3>
+  <h3>Extensions and updates</h3>
+
+  <p>
+    Standards Track RFCs published since SCIM 2.0, extending the core specifications or updating
+    them in place.
+  </p>
+
+  <ul class="spec-list">
+    <li>
+      <div class="spec-title">
+        <a href="https://www.rfc-editor.org/rfc/rfc9865" class="rfc-badge">RFC 9865</a>
+        <a href="/specs/cursor-pagination/">Cursor-Based Pagination of SCIM Resources</a>
+        <span class="status status--published">Published</span>
+      </div>
+      <p>
+        Defines <code>cursor</code> and <code>count</code> query parameters and
+        <code>nextCursor</code> / <code>previousCursor</code> response attributes, so service
+        providers whose backing store already pages by cursor need not translate to index-based
+        paging. Updates RFC 7643 and RFC 7644.
+      </p>
+    </li>
+    <li>
+      <div class="spec-title">
+        <a href="https://www.rfc-editor.org/rfc/rfc9944" class="rfc-badge">RFC 9944</a>
+        <a href="/specs/device-schema/">Device Schema Extensions to the SCIM Model</a>
+        <span class="status status--published">Published</span>
+      </div>
+      <p>
+        Adds <code>Device</code> and <code>EndpointApp</code> resource types plus per-system
+        bootstrapping extensions, enabling provisioning of devices using Wi-Fi Easy Connect,
+        FIDO Device Onboard, Bluetooth Low Energy, Ethernet MAB, and Zigbee.
+      </p>
+    </li>
+    <li>
+      <div class="spec-title">
+        <a href="https://www.rfc-editor.org/rfc/rfc9967" class="rfc-badge">RFC 9967</a>
+        <a href="/specs/events/">SCIM Profile for Security Event Tokens (SETs)</a>
+        <span class="status status--published">Published</span>
+      </div>
+      <p>
+        Defines a set of SCIM events carried as Security Event Tokens, for asynchronous exchange
+        of resource changes between service providers and receivers. Updates RFC 7643 and
+        RFC 7644.
+      </p>
+    </li>
+  </ul>
+
+  <h3>Related documents and drafts</h3>
 
   <div class="callout callout--muted">
     <strong class="callout-label">Note</strong>

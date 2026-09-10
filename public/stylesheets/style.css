@@ -574,6 +574,8 @@ details[open] > .sidebar-summary { color: var(--color-primary); font-weight: 600
   vertical-align: middle;
   white-space: nowrap;
 }
+/* Neutral variant for metadata that isn't a status — e.g. "Updates 7643, 7644". */
+.status--neutral    { background: var(--color-surface); color: var(--color-text-muted); border: 1px solid var(--color-border); }
 .status--published  { background: var(--tint-ok-bg);   color: var(--tint-ok-text);   border: 1px solid var(--tint-ok-border); }
 .status--draft      { background: var(--tint-warn-bg); color: var(--tint-warn-text); border: 1px solid var(--tint-warn-border); }
 .status--expired    { background: var(--tint-warn-bg); color: var(--tint-warn-text); border: 1px solid var(--tint-warn-border); }

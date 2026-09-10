@@ -24,8 +24,8 @@ require(__DIR__.'/../includes/_header.php');
 
   <div class="stat-row">
     <div class="stat">
-      <div class="stat-value">3</div>
-      <div class="stat-label">Core RFCs</div>
+      <div class="stat-value">6</div>
+      <div class="stat-label">IETF RFCs</div>
     </div>
     <div class="stat">
       <div class="stat-value"><?= $v2_count ?></div>

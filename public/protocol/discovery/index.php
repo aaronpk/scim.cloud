@@ -54,6 +54,17 @@ Host: example.com
 Accept: application/scim+json
 TEXT, 'http', 'Discovering server capabilities') ?>
 
+  <div class="callout">
+    <strong class="callout-label">Extensions advertise themselves here</strong>
+    <p>
+      Later RFCs add their own attributes to <code>/ServiceProviderConfig</code>, so this is
+      where a client discovers optional capabilities:
+      <a href="/specs/cursor-pagination/">RFC 9865</a> adds <code>pagination</code> to describe
+      cursor and index paging support, and <a href="/specs/events/">RFC 9967</a> adds
+      <code>securityEvents</code> to describe asynchronous event support.
+    </p>
+  </div>
+
   <div class="callout callout--muted">
     <strong class="callout-label">Note</strong>
     <p>

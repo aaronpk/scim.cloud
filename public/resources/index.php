@@ -6,7 +6,7 @@ require(__DIR__.'/../../includes/_header.php');
 $logos = [
   'Vector' => [
     ['/img/logo/8.27.13_SCIM_Logo_Gang-up.eps', 'EPS', 'All logos, vector'],
-    ['/img/logo/8.27.13 SCIM Logo Gang-up.pdf', 'PDF', 'All logos, vector'],
+    ['/img/logo/8.27.13%20SCIM%20Logo%20Gang-up.pdf', 'PDF', 'All logos, vector'],
   ],
   'PNG' => [
     ['/img/logo/SCIM_B-and-W_48x16.png', 'PNG 48×16', 'Black and white'],

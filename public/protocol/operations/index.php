@@ -96,6 +96,16 @@ https://example.com/{resource}?filter={attribute} {op} {value}&sortBy={attribute
 https://example.com/Users?filter=title pr and userType eq "Employee"&sortBy=title&sortOrder=ascending&attributes=title,username
 TEXT, 'text', 'Filter query syntax') ?>
 
+  <h3>Pagination</h3>
+
+  <p>
+    RFC 7644 pages results by index: the client sends a <code>startIndex</code> and a
+    <code>count</code>. <a href="/specs/cursor-pagination/">RFC 9865</a> adds cursor-based
+    pagination as an alternative, for service providers whose underlying store already pages by
+    cursor. A provider may support either or both, and advertises which through
+    <a href="/protocol/discovery/"><code>/ServiceProviderConfig</code></a>.
+  </p>
+
   <div class="callout">
     <strong class="callout-label">See it in context</strong>
     <p>
