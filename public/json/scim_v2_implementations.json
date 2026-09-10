@@ -1,5 +1,13 @@
 {
     "implementations": [
+		{
+            "project_name": "Universal ID SCIM 2.0 Server",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Universal ID",
+            "link": "https://universalid.io"
+        },
         {
             "project_name": "Cloudflare",
             "client": "No",
