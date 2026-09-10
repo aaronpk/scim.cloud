@@ -814,8 +814,8 @@
             "project_name": "Stalwart",
             "client": "No",
             "server": "Yes",
-            "license": "",
-            "open_source": "Yes, AGPL-3.0",
+            "license": "AGPL-3.0",
+            "open_source": "Yes",
             "developer": "Stalwart Labs LLC",
             "link": "https://stalw.art/docs/auth/scim"
         }
