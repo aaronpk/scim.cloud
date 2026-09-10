@@ -59,8 +59,8 @@ TEXT, 'http', 'Discovering server capabilities') ?>
     <p>
       Later RFCs add their own attributes to <code>/ServiceProviderConfig</code>, so this is
       where a client discovers optional capabilities:
-      <a href="/specs/cursor-pagination/">RFC 9865</a> adds <code>pagination</code> to describe
-      cursor and index paging support, and <a href="/specs/events/">RFC 9967</a> adds
+      <a href="/extensions/cursor-pagination/">RFC 9865</a> adds <code>pagination</code> to describe
+      cursor and index paging support, and <a href="/extensions/events/">RFC 9967</a> adds
       <code>securityEvents</code> to describe asynchronous event support.
     </p>
   </div>

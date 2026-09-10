@@ -100,7 +100,7 @@ TEXT, 'text', 'Filter query syntax') ?>
 
   <p>
     RFC 7644 pages results by index: the client sends a <code>startIndex</code> and a
-    <code>count</code>. <a href="/specs/cursor-pagination/">RFC 9865</a> adds cursor-based
+    <code>count</code>. <a href="/extensions/cursor-pagination/">RFC 9865</a> adds cursor-based
     pagination as an alternative, for service providers whose underlying store already pages by
     cursor. A provider may support either or both, and advertises which through
     <a href="/protocol/discovery/"><code>/ServiceProviderConfig</code></a>.

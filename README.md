@@ -41,12 +41,20 @@ otherwise mishandles paths containing a dot, such as `/implementations/2.0/`. In
 includes/            shared layout: header, sidebar, footer, code blocks, data loading
 public/              document root
   index.php          home page
-  <section>/         one directory per page, each with an index.php
+  overview/          introduction and object model
+  schema/            RFC 7643 — core schema, example User and Group
+  protocol/          RFC 7644 — operations, discovery, examples
+  extensions/        one directory per extension RFC (9865, 9944, 9967)
+  implementations/   the implementation lists
   json/              implementation data
   stylesheets/       the design system (single file)
-  specs/             archived SCIM 1.0 and 1.1 documents
+  specs/             the RFC index, plus archived SCIM 1.0 and 1.1 documents
 tests/               PHPUnit: JSON schema checks and PHP syntax linting
 ```
 
 Adding a page means creating `public/<path>/index.php` and linking it from
 `includes/_sidebar.php` — a test asserts every page is reachable from the sidebar.
+
+The exception is a **redirect stub**: an `index.php` that is nothing but
+`header('Location: …', true, 301)`, left behind at a URL that has moved. Stubs are exempt from
+the sidebar check, and a separate test asserts each one points at a page that exists.

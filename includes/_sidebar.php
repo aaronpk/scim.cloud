@@ -6,31 +6,33 @@
   <span class="sidebar-divider">Overview</span>
   <a href="/overview/" class="sidebar-link<?= sidebar_active('/overview/') ?>">Introduction</a>
   <a href="/overview/model/" class="sidebar-link<?= sidebar_active('/overview/model/') ?>">Object Model</a>
-  <details<?= section_open(['/overview/schema']) ?>>
+
+  <span class="sidebar-divider">SCIM 2.0</span>
+  <details<?= section_open(['/schema']) ?>>
     <summary class="sidebar-summary">Schema</summary>
     <ul class="sidebar-sub">
-      <li><a href="/overview/schema/" class="sidebar-sublink<?= sidebar_active('/overview/schema/') ?>">Overview</a></li>
-      <li><a href="/overview/schema/user/" class="sidebar-sublink<?= sidebar_active('/overview/schema/user/') ?>">Example User</a></li>
-      <li><a href="/overview/schema/group/" class="sidebar-sublink<?= sidebar_active('/overview/schema/group/') ?>">Example Group</a></li>
+      <li><a href="/schema/" class="sidebar-sublink<?= sidebar_active('/schema/') ?>">Overview</a></li>
+      <li><a href="/schema/user/" class="sidebar-sublink<?= sidebar_active('/schema/user/') ?>">Example User</a></li>
+      <li><a href="/schema/group/" class="sidebar-sublink<?= sidebar_active('/schema/group/') ?>">Example Group</a></li>
+    </ul>
+  </details>
+  <details<?= section_open(['/protocol']) ?>>
+    <summary class="sidebar-summary">Protocol</summary>
+    <ul class="sidebar-sub">
+      <li><a href="/protocol/" class="sidebar-sublink<?= sidebar_active('/protocol/') ?>">Overview</a></li>
+      <li><a href="/protocol/operations/" class="sidebar-sublink<?= sidebar_active('/protocol/operations/') ?>">Operations</a></li>
+      <li><a href="/protocol/discovery/" class="sidebar-sublink<?= sidebar_active('/protocol/discovery/') ?>">Discovery</a></li>
+      <li><a href="/protocol/examples/" class="sidebar-sublink<?= sidebar_active('/protocol/examples/') ?>">Examples</a></li>
     </ul>
   </details>
 
-  <span class="sidebar-divider">Protocol</span>
-  <a href="/protocol/" class="sidebar-link<?= sidebar_active('/protocol/') ?>">Overview</a>
-  <a href="/protocol/operations/" class="sidebar-link<?= sidebar_active('/protocol/operations/') ?>">Operations</a>
-  <a href="/protocol/discovery/" class="sidebar-link<?= sidebar_active('/protocol/discovery/') ?>">Discovery</a>
-  <a href="/protocol/examples/" class="sidebar-link<?= sidebar_active('/protocol/examples/') ?>">Examples</a>
+  <span class="sidebar-divider">Extensions</span>
+  <a href="/extensions/cursor-pagination/" class="sidebar-link<?= sidebar_active('/extensions/cursor-pagination/') ?>">Cursor Pagination</a>
+  <a href="/extensions/device-schema/" class="sidebar-link<?= sidebar_active('/extensions/device-schema/') ?>">Device Schema</a>
+  <a href="/extensions/events/" class="sidebar-link<?= sidebar_active('/extensions/events/') ?>">Events (SETs)</a>
 
   <span class="sidebar-divider">Reference</span>
-  <details<?= section_open(['/specs']) ?>>
-    <summary class="sidebar-summary">Specifications</summary>
-    <ul class="sidebar-sub">
-      <li><a href="/specs/" class="sidebar-sublink<?= sidebar_active('/specs/') ?>">Overview</a></li>
-      <li><a href="/specs/cursor-pagination/" class="sidebar-sublink<?= sidebar_active('/specs/cursor-pagination/') ?>">Cursor Pagination</a></li>
-      <li><a href="/specs/device-schema/" class="sidebar-sublink<?= sidebar_active('/specs/device-schema/') ?>">Device Schema</a></li>
-      <li><a href="/specs/events/" class="sidebar-sublink<?= sidebar_active('/specs/events/') ?>">Events (SETs)</a></li>
-    </ul>
-  </details>
+  <a href="/specs/" class="sidebar-link<?= sidebar_active('/specs/') ?>">Specifications</a>
   <details<?= section_open(['/implementations']) ?>>
     <summary class="sidebar-summary">Implementations</summary>
     <ul class="sidebar-sub">

@@ -49,7 +49,7 @@ require(__DIR__.'/../includes/_header.php');
       </div>
       <span class="entry-arrow" aria-hidden="true">&rarr;</span>
     </a>
-    <a href="/overview/schema/" class="entry-card">
+    <a href="/schema/" class="entry-card">
       <div class="entry-text">
         <div class="entry-title">Schema</div>
         <p class="entry-desc">

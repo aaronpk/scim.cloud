@@ -50,7 +50,7 @@ require(__DIR__.'/../../includes/_header.php');
     <dd>
       A platform-neutral schema and extension model for representing users and groups.
       This is where <code>User</code>, <code>Group</code>, and <code>EnterpriseUser</code>
-      are defined. See <a href="/overview/schema/">Schema</a>.
+      are defined. See <a href="/schema/">Schema</a>.
     </dd>
 
     <dt>Protocol <span class="term-abbr">RFC 7644</span></dt>
@@ -74,7 +74,7 @@ require(__DIR__.'/../../includes/_header.php');
       Object Model
       <span class="chip-note">Resource, id, meta</span>
     </a>
-    <a href="/overview/schema/" class="link-chip">
+    <a href="/schema/" class="link-chip">
       Schema
       <span class="chip-note">User, Group, extensions</span>
     </a>

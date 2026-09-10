@@ -74,7 +74,7 @@ require(__DIR__.'/../../includes/_header.php');
     <li>
       <div class="spec-title">
         <a href="https://www.rfc-editor.org/rfc/rfc9865" class="rfc-badge">RFC 9865</a>
-        <a href="/specs/cursor-pagination/">Cursor-Based Pagination of SCIM Resources</a>
+        <a href="/extensions/cursor-pagination/">Cursor-Based Pagination of SCIM Resources</a>
         <span class="status status--published">Published</span>
       </div>
       <p>
@@ -87,7 +87,7 @@ require(__DIR__.'/../../includes/_header.php');
     <li>
       <div class="spec-title">
         <a href="https://www.rfc-editor.org/rfc/rfc9944" class="rfc-badge">RFC 9944</a>
-        <a href="/specs/device-schema/">Device Schema Extensions to the SCIM Model</a>
+        <a href="/extensions/device-schema/">Device Schema Extensions to the SCIM Model</a>
         <span class="status status--published">Published</span>
       </div>
       <p>
@@ -99,7 +99,7 @@ require(__DIR__.'/../../includes/_header.php');
     <li>
       <div class="spec-title">
         <a href="https://www.rfc-editor.org/rfc/rfc9967" class="rfc-badge">RFC 9967</a>
-        <a href="/specs/events/">SCIM Profile for Security Event Tokens (SETs)</a>
+        <a href="/extensions/events/">SCIM Profile for Security Event Tokens (SETs)</a>
         <span class="status status--published">Published</span>
       </div>
       <p>

@@ -62,7 +62,7 @@ require(__DIR__.'/../../../includes/_header.php');
 
   <p>
     Attributes come in three shapes, and you will see all three in the
-    <a href="/overview/schema/user/">Example User</a>:
+    <a href="/schema/user/">Example User</a>:
   </p>
 
   <ul>
@@ -72,7 +72,7 @@ require(__DIR__.'/../../../includes/_header.php');
   </ul>
 
   <div class="link-grid">
-    <a href="/overview/schema/" class="link-chip">
+    <a href="/schema/" class="link-chip">
       Schema
       <span class="chip-note">Next &rarr;</span>
     </a>
