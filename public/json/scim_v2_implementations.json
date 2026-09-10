@@ -9,6 +9,14 @@ const scim_v2_implementations = {
             "link": "https://docs.paloaltonetworks.com/identity/cloud-identity-engine/identify-users-and-devices-with-cie/choose-directory-type/configure-a-cloud-based-directory/configure-scim-connector-for-the-cloud-identity-engine#id32a816f0-0f84-4d6a-8300-ff5e9e3646a9"
         },
         {
+            "project_name": "Cloudflare",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Cloudflare, Inc.",
+            "link": "https://developers.cloudflare.com/fundamentals/account/account-security/scim-setup/"
+        },
+        {
             "project_name": "SCIM Gateway",
             "client": "No",
             "server": "Yes",
@@ -16,7 +24,7 @@ const scim_v2_implementations = {
             "developer": "Jarle Elshaug",
             "link": "https://github.com/jelhub/scimgateway"
         },
-	{
+      	{
             "project_name": "Descope",
             "client": "No",
             "server": "Yes",
@@ -703,6 +711,14 @@ const scim_v2_implementations = {
             "open_source": "No",
             "developer": "Rock Solid Knowledge",
             "link": "https://www.identityserver.com/products/scim-for-aspnet"
+        },
+        {
+            "project_name": "Stalwart",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "Yes, AGPL-3.0",
+            "developer": "Stalwart Labs LLC",
+            "link": "https://stalw.art/docs/auth/scim"
         }
     ]
 };
