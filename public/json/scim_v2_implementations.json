@@ -1,6 +1,14 @@
 {
     "implementations": [
         {
+            "project_name": "Cloudflare",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "No",
+            "developer": "Cloudflare, Inc.",
+            "link": "https://developers.cloudflare.com/fundamentals/account/account-security/scim-setup/"
+        },
+        {
             "project_name": "SCIM Gateway",
             "client": "No",
             "server": "Yes",
@@ -782,6 +790,14 @@
             "license": "",
             "developer": "Rock Solid Knowledge",
             "link": "https://www.identityserver.com/products/scim-for-aspnet"
+        },
+        {
+            "project_name": "Stalwart",
+            "client": "No",
+            "server": "Yes",
+            "open_source": "Yes, AGPL-3.0",
+            "developer": "Stalwart Labs LLC",
+            "link": "https://stalw.art/docs/auth/scim"
         }
     ]
 }
