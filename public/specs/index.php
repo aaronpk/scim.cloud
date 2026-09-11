@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Specifications';
-$page_description = 'The SCIM specifications: RFC 7642, RFC 7643, and RFC 7644 for SCIM 2.0, related IETF drafts, and the archived SCIM 1.1 and 1.0 documents.';
+$page_description = 'The SCIM specifications: the six published RFCs, the Internet-Drafts currently in progress, and the archived SCIM 1.1 and 1.0 documents.';
 require(__DIR__.'/../../includes/_header.php');
 ?>
 
@@ -17,7 +17,7 @@ require(__DIR__.'/../../includes/_header.php');
 
   <p class="lede">
     SCIM 2.0 was published by the IETF in September 2015 as three RFCs, and has since been
-    extended by three more.
+    extended by three more, with further work in progress.
   </p>
 
   <h3>SCIM 2.0</h3>
@@ -110,13 +110,173 @@ require(__DIR__.'/../../includes/_header.php');
     </li>
   </ul>
 
-  <h3>Related documents and drafts</h3>
+  <h3>Current work</h3>
+
+  <p>
+    Where SCIM development is happening now. This list reflects the
+    <a href="https://datatracker.ietf.org/wg/scim/documents/">working group's document page</a>
+    as of September 2026; check there for the current state of any draft.
+  </p>
+
+  <h4>Working group drafts</h4>
+
+  <div class="callout callout--muted">
+    <strong class="callout-label">Note</strong>
+    <p>
+      The working group's other adopted drafts have all been published as RFCs and are listed
+      above. One adopted draft remains open, and its most recent revision has lapsed &mdash;
+      drafts expire six months after publication and are routinely revived by a new revision, so
+      an expired draft is not necessarily abandoned work.
+    </p>
+  </div>
+
+  <ul class="spec-list">
+    <li>
+      <div class="spec-title">
+        <a href="https://datatracker.ietf.org/doc/draft-ietf-scim-roles-entitlements/" class="rfc-badge">draft-ietf-scim-roles-entitlements</a>
+        <span class="rev-pill">-01</span>
+        <span class="status status--neutral">WG Document</span>
+        <span class="status status--expired">Expired</span>
+      </div>
+      <p>
+        SCIM Roles and Entitlements Extension. Lets a service provider publish the permitted
+        values for the core <code>roles</code> and <code>entitlements</code> attributes, which in
+        practice vary by tenant and by which services a customer has bought, so a client can
+        discover them rather than guess.
+      </p>
+    </li>
+  </ul>
+
+  <h4>Individual drafts</h4>
+
+  <p>
+    These are individual submissions that the working group has not adopted. They carry no
+    consensus and may change or disappear, but they are where most active SCIM work currently
+    sits.
+  </p>
+
+  <ul class="spec-list">
+    <li>
+      <div class="spec-title">
+        <a href="https://datatracker.ietf.org/doc/draft-zollner-scim-interop-profile/" class="rfc-badge">draft-zollner-scim-interop-profile</a>
+        <span class="rev-pill">-01</span>
+        <span class="status status--active">Active</span>
+      </div>
+      <p>
+        SCIM 2.0 Interoperability Profile. Constrains the base specification's many optional
+        features into a required baseline, on the argument that the many-to-many model &mdash;
+        one identity provider talking to many service providers, each provider accepting many
+        identity providers &mdash; multiplies the cost of every optional feature.
+      </p>
+    </li>
+    <li>
+      <div class="spec-title">
+        <a href="https://datatracker.ietf.org/doc/draft-schreiber-scim-ipsie-profile/" class="rfc-badge">draft-schreiber-scim-ipsie-profile</a>
+        <span class="rev-pill">-00</span>
+        <span class="status status--active">Active</span>
+      </div>
+      <p>
+        SCIM 2.0 IPSIE Profile. A profile for enterprise identity lifecycle covering
+        provisioning, account management, client authentication, and synchronization, organised
+        into three Account Lifecycle assurance levels: deprovisioning, user and group
+        management, then role management.
+      </p>
+    </li>
+    <li>
+      <div class="spec-title">
+        <a href="https://datatracker.ietf.org/doc/draft-zollner-scim-group-members/" class="rfc-badge">draft-zollner-scim-group-members</a>
+        <span class="rev-pill">-01</span>
+        <span class="status status--active">Active</span>
+      </div>
+      <p>
+        SCIM Group Member Resource Type Extension. Promotes membership to a top-level
+        <code>GroupMember</code> resource. Because RFC 7643 models members as values inside a
+        Group attribute, there is no way to page, filter, or sort them &mdash; at a million
+        members a single response can exceed 100&nbsp;MB, which is why many implementations
+        simply omit <code>members</code>.
+      </p>
+    </li>
+    <li>
+      <div class="spec-title">
+        <a href="https://datatracker.ietf.org/doc/draft-kushwaha-scim-attr-cursor-pagination/" class="rfc-badge">draft-kushwaha-scim-attr-cursor-pagination</a>
+        <span class="rev-pill">-01</span>
+        <span class="status status--active">Active</span>
+      </div>
+      <p>
+        Cursor-based pagination and deferred retrieval for multi-valued attributes. Tackles the
+        same scale problem from the other direction: rather than flattening membership into its
+        own resource, it pages <em>within</em> an attribute such as
+        <code>Group.members</code>, and defines how a client can tell a bounded response from a
+        complete one. Distinct from <a href="/extensions/cursor-pagination/">RFC 9865</a>, which
+        pages collections of resources.
+      </p>
+    </li>
+    <li>
+      <div class="spec-title">
+        <a href="https://datatracker.ietf.org/doc/draft-wzdk-scim-agent-resource/" class="rfc-badge">draft-wzdk-scim-agent-resource</a>
+        <span class="rev-pill">-00</span>
+        <span class="status status--active">Active</span>
+      </div>
+      <p>
+        AI Agent Resource Extension. A minimal schema for representing an AI agent as a SCIM
+        resource, so an agent identity can be provisioned over the SCIM protocol and later
+        authenticated and authorized like any other principal.
+      </p>
+    </li>
+    <li>
+      <div class="spec-title">
+        <a href="https://datatracker.ietf.org/doc/draft-kushwaha-scim-agent-governance/" class="rfc-badge">draft-kushwaha-scim-agent-governance</a>
+        <span class="rev-pill">-00</span>
+        <span class="status status--active">Active</span>
+      </div>
+      <p>
+        SCIM Agent Governance Extension. Builds on the agent resource above with governance
+        metadata: a lifecycle state model drawn from ISO/IEC 24760-1 rather than a single
+        boolean, an autonomy classification, a validity window, and a credential-discovery
+        reference. Authorization and credential management are deliberately left out.
+      </p>
+    </li>
+    <li>
+      <div class="spec-title">
+        <a href="https://datatracker.ietf.org/doc/draft-kushwaha-scim-tenant-resource/" class="rfc-badge">draft-kushwaha-scim-tenant-resource</a>
+        <span class="rev-pill">-00</span>
+        <span class="status status--active">Active</span>
+      </div>
+      <p>
+        Tenant-aware identity provisioning. Adds a <code>Tenant</code> resource type and
+        tenant-membership extensions to User and Group, plus tenant-scoped uniqueness, a rule for
+        resolving which tenant a request applies to, and tenant-aware filtering. Aimed at
+        multi-tenant SaaS and B2B deployments.
+      </p>
+    </li>
+    <li>
+      <div class="spec-title">
+        <a href="https://datatracker.ietf.org/doc/draft-kushwaha-scim-didvc-binding/" class="rfc-badge">draft-kushwaha-scim-didvc-binding</a>
+        <span class="rev-pill">-01</span>
+        <span class="status status--active">Active</span>
+      </div>
+      <p>
+        SCIM DID/VC Binding Extension. Records auditable links between a SCIM User and
+        Decentralized Identifiers or Verifiable Credentials, via an
+        <code>IdentityBinding</code> resource type and a read-only User extension exposing
+        binding state. DID resolution and credential issuance are out of scope; state changes
+        propagate as <a href="/extensions/events/">RFC 9967</a> events.
+      </p>
+    </li>
+  </ul>
+
+  <h3>Historical drafts</h3>
+
+  <details class="disclosure">
+    <summary>Expired individual drafts from 2015&ndash;2018 (6)</summary>
+    <div class="disclosure-body">
 
   <div class="callout callout--muted">
     <strong class="callout-label">Note</strong>
     <p>
       These are individual Internet-Drafts rather than working group products, and all of
-      them have expired. They are listed for reference; do not treat them as current.
+      them have expired. They are listed for the historical record; do not treat them as
+      current.
     </p>
   </div>
 
@@ -193,6 +353,9 @@ require(__DIR__.'/../../includes/_header.php');
       </p>
     </li>
   </ul>
+
+    </div>
+  </details>
 
   <h3>SCIM 1.1</h3>
 

@@ -576,6 +576,9 @@ details[open] > .sidebar-summary { color: var(--color-primary); font-weight: 600
 }
 /* Neutral variant for metadata that isn't a status — e.g. "Updates 7643, 7644". */
 .status--neutral    { background: var(--color-surface); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+/* An in-progress draft. Accent rather than a tint, so it reads as "current"
+   and stays clearly distinct from the amber used for expired. */
+.status--active     { background: var(--color-surface-hover); color: var(--color-accent); border: 1px solid var(--color-accent); }
 .status--published  { background: var(--tint-ok-bg);   color: var(--tint-ok-text);   border: 1px solid var(--tint-ok-border); }
 .status--draft      { background: var(--tint-warn-bg); color: var(--tint-warn-text); border: 1px solid var(--tint-warn-border); }
 .status--expired    { background: var(--tint-warn-bg); color: var(--tint-warn-text); border: 1px solid var(--tint-warn-border); }
@@ -604,6 +607,42 @@ details[open] > .sidebar-summary { color: var(--color-primary); font-weight: 600
   color: var(--color-text-muted);
   line-height: 1.55;
 }
+
+/* Collapsible block for content that is kept for the record but shouldn't
+   compete with current material. Native <details>, no JS. */
+.disclosure {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  margin: 0 0 var(--space-5);
+}
+.disclosure > summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  cursor: pointer;
+  list-style: none;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  user-select: none;
+}
+.disclosure > summary::-webkit-details-marker { display: none; }
+.disclosure > summary::after {
+  content: '›';
+  margin-left: auto;
+  font-size: 1.2em;
+  line-height: 1;
+  transition: transform 0.15s;
+}
+.disclosure[open] > summary::after { transform: rotate(90deg); }
+.disclosure > summary:hover { color: var(--color-accent); }
+.disclosure[open] > summary {
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-border);
+}
+.disclosure-body { padding: var(--space-4) var(--space-4) var(--space-2); }
+.disclosure-body > :last-child { margin-bottom: 0; }
 
 .terminology { margin: 0 0 var(--space-5); }
 .terminology dt {
@@ -861,7 +900,8 @@ table.data th.sortable[aria-sort="descending"]::after { content: '▼'; }
 .yes { color: var(--tint-ok-text); font-weight: 700; }
 .no  { color: var(--color-text-muted); }
 
-.license-pill {
+.license-pill,
+.rev-pill {
   display: inline-block;
   font-family: var(--font-mono);
   font-size: var(--text-xs);
