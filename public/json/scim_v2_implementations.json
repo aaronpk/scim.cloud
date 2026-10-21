@@ -827,6 +827,16 @@
             "open_source": "Yes",
             "developer": "Stalwart Labs LLC",
             "link": "https://stalw.art/docs/auth/scim"
-        }
+        },
+		{
+			"project_name": "Frontegg",
+        	"client": "No",
+        	"server": "Yes",
+        	"open_source": "No",
+        	"license": "",
+        	"developer": "Frontegg",
+        	"link": "https://developers.frontegg.com/ciam/guides/management/manage-users/scim/overview"
+
+		}
     ]
 }
