@@ -827,6 +827,15 @@
             "open_source": "Yes",
             "developer": "Stalwart Labs LLC",
             "link": "https://stalw.art/docs/auth/scim"
+        },
+        {
+            "project_name": "Sovrain",
+            "client": "Yes",
+            "server": "No",
+            "open_source": "No",
+            "license": "",
+            "developer": "Warsaw Dynamics",
+            "link": "https://www.sovrain.app/docs/identity-provider/reference/scim/"
         }
     ]
 }
